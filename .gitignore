@@ -2,4 +2,16 @@
 .DS_Store
 target/
 Cargo.lock
+
+concert/
+dao/
+dao-light/
+dutch-auction/
+escrow/
+feeds/
+fungible-token/
+gear-lib/
+lottery/
+multitoken/
+non-fungible-token/
 ping/

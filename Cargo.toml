@@ -1,5 +1,19 @@
 [workspace]
 resolver = "2"
 members = [
+    "concert",
+    "dao",
+    "dao-light",
+    "dutch-auction",
+    "escrow",
+    "feeds/channel",
+    "feeds/router",
+    "fungible-token",
+    "lottery",
+    "multitoken",
+    "non-fungible-token/nft-example",
+    "non-fungible-token/nft-marketplace/marketplace",
+    "non-fungible-token/nft-marketplace/nft",
+    "non-fungible-token/non-fungible-token",
     "ping",
 ]
