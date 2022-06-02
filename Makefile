@@ -8,7 +8,7 @@ all:
 
 clean:
 	@echo ──────────── Clean ────────────────────────────
-	@rm -rvf target
+	@rm -rvf apps target
 
 open: all
 	@cargo +nightly doc --workspace --no-deps --open
