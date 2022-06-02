@@ -17,6 +17,8 @@ ping \
 
 set -e
 cd "$(dirname "$0")/.."
+mkdir -p apps
+cd apps
 
 for REPO in $REPOS
 do
