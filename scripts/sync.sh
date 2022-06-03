@@ -17,8 +17,8 @@ ping \
 
 set -e
 cd "$(dirname "$0")/.."
-mkdir -p apps
-cd apps
+mkdir -p dapps
+cd dapps
 
 for REPO in $REPOS
 do

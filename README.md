@@ -7,7 +7,7 @@
 
 Generated documentation for programs.
 
-👉 https://apps.gear.rs
+👉 https://dapps.gear.rs
 
 ## Building locally
 
