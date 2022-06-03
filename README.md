@@ -2,12 +2,12 @@
 
 [![Build][build_badge]][build_href]
 
-[build_badge]: https://github.com/gear-academy/docs/workflows/Build/badge.svg
-[build_href]: https://github.com/gear-academy/docs/actions/workflows/build.yml
+[build_badge]: https://github.com/gear-dapps/docs/workflows/Build/badge.svg
+[build_href]: https://github.com/gear-dapps/docs/actions/workflows/build.yml
 
 Generated documentation for programs.
 
-👉 https://apps.gear.rs
+👉 https://dapps.gear.rs
 
 ## Building locally
 
