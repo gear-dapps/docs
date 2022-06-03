@@ -23,7 +23,7 @@ cd dapps
 for REPO in $REPOS
 do
     if [ ! -d $REPO ]; then
-        git clone https://github.com/gear-academy/$REPO.git
+        git clone https://github.com/gear-dapps/$REPO.git
     else
         cd $REPO
         git reset --hard
