@@ -1,11 +1,7 @@
-name: Build
-
+name: PR
 on:
-  push:
+  pull_request:
     branches: [master]
-  schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch: # No params
 
 env:
   CARGO_TERM_COLOR: always
@@ -13,6 +9,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -29,15 +26,9 @@ jobs:
       - name: Build docs
         run: make
 
-      - name: Copy logo image
-        run: cp ./images/logo.svg ./target/doc/
-
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./target/doc
-          cname: dapps.gear.rs
-          force_orphan: true
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          destination_dir: pr-${{ github.event.number }}
