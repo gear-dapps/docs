@@ -14,4 +14,6 @@ members = [
     "dapps/non-fungible-token/nft",
     "dapps/non-fungible-token/nft-marketplace",
     "dapps/ping",
+    "dapps/staking",
+    "dapps/supply-chain",
 ]

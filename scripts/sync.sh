@@ -13,6 +13,8 @@ lottery \
 multitoken \
 non-fungible-token \
 ping \
+staking \
+supply-chain \
 "
 
 set -e
