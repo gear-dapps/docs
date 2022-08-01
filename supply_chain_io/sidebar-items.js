@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["ItemState",""],["SupplyChainAction",""],["SupplyChainEvent",""],["SupplyChainState",""],["SupplyChainStateReply",""]],"struct":[["InitSupplyChain","Initializes a supply chain."],["ItemInfo",""]],"type":[["ItemId",""]]};

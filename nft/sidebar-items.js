@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["handle",""],["init",""],["meta_state",""]],"struct":[["NFT",""]],"trait":[["MyNFTCore",""]]};

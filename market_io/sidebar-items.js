@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["MarketAction",""],["MarketEvent",""]],"struct":[["Auction",""],["Bid",""],["InitMarket",""],["Item",""],["Offer",""]]};

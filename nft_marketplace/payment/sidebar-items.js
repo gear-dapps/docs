@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["check_attached_value",""],["transfer_payment",""],["transfer_tokens",""]]};

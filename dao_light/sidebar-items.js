@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["DaoAction",""],["DaoEvent",""],["Vote",""]],"fn":[["init",""],["meta_state",""]],"mod":[["ft_messages",""],["state",""]],"struct":[["InitDao",""],["Member",""],["Proposal",""]]};
